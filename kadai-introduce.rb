@@ -1,6 +1,6 @@
 myouji = "播磨"
-namae = "佑晟です。"
-nenrei = "20歳です。"
-jikosyoukai = myouji + namae + nenrei.to_s
+namae = "佑晟"
+nenrei = 20
+jikosyoukai = myouji + namae + "です。" + nenrei.to_s + "歳です。"
 
 puts jikosyoukai
